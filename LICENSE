@@ -1,0 +1,56 @@
+MIT License
+
+Copyright (c) 2025 SysWeld Documentation Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this documentation and associated files (the "Documentation"), to deal
+in the Documentation without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Documentation, and to permit persons to whom the Documentation is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Documentation.
+
+THE DOCUMENTATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE DOCUMENTATION OR THE USE OR OTHER DEALINGS IN THE
+DOCUMENTATION.
+
+---
+
+## Note on SysWeld Software
+
+This documentation repository is provided for educational and reference purposes.
+SysWeld is proprietary software and is subject to its own license terms.
+This documentation does not grant any rights to use SysWeld software itself.
+
+For SysWeld software licensing, please contact:
+- Website: [SysWeld official website]
+- Email: licensing@sysweld.com
+
+## Third-Party Content
+
+This documentation may reference or include examples using third-party libraries
+and tools. Such content is subject to the respective licenses of those projects.
+
+## Documentation Usage
+
+This documentation is optimized for use as a RAG (Retrieval-Augmented Generation)
+source and may be used in:
+- AI-powered chatbots and assistants
+- Knowledge management systems
+- Documentation search engines
+- Educational platforms
+- Training materials
+
+When using this documentation in derivative works, please provide appropriate
+attribution to the SysWeld Documentation Team.
+
+## Contributions
+
+By contributing to this repository, you agree that your contributions will be
+licensed under the same MIT License.
