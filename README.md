@@ -42,10 +42,10 @@ This repository is designed to be easily integrated into RAG pipelines:
 #### With LangChain
 
 ```python
-from langchain.document_loaders import DirectoryLoader, TextLoader
+from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
+from langchain_openai import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
 
 # Load documents
 loader = DirectoryLoader(
@@ -73,7 +73,7 @@ vectorstore = Chroma.from_documents(
 #### With LlamaIndex
 
 ```python
-from llama_index import SimpleDirectoryReader, VectorStoreIndex
+from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
 
 # Load documents
 documents = SimpleDirectoryReader('./docs').load_data()

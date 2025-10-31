@@ -60,7 +60,7 @@ All examples require:
 
 **LangChain with HuggingFace:**
 ```python
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
@@ -69,7 +69,7 @@ embeddings = HuggingFaceEmbeddings(
 
 **LlamaIndex with local models:**
 ```python
-from llama_index.embeddings import HuggingFaceEmbedding
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
 embed_model = HuggingFaceEmbedding(
     model_name="BAAI/bge-large-en-v1.5"
@@ -81,7 +81,7 @@ embed_model = HuggingFaceEmbedding(
 **Pinecone:**
 ```python
 import pinecone
-from langchain.vectorstores import Pinecone
+from langchain_community.vectorstores import Pinecone
 
 pinecone.init(api_key="your-key", environment="your-env")
 vectorstore = Pinecone.from_documents(splits, embeddings, index_name="sysweld-docs")
@@ -90,7 +90,7 @@ vectorstore = Pinecone.from_documents(splits, embeddings, index_name="sysweld-do
 **Weaviate:**
 ```python
 import weaviate
-from langchain.vectorstores import Weaviate
+from langchain_community.vectorstores import Weaviate
 
 client = weaviate.Client("http://localhost:8080")
 vectorstore = Weaviate.from_documents(splits, embeddings, client=client)

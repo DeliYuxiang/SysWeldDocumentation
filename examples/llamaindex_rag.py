@@ -5,19 +5,19 @@ This script demonstrates how to load and query the SysWeld documentation
 using LlamaIndex's RAG capabilities.
 
 Prerequisites:
-    pip install llama-index openai python-dotenv
+    pip install llama-index llama-index-llms-openai llama-index-embeddings-openai openai python-dotenv
     
     Set environment variable: OPENAI_API_KEY
 """
 
 import os
-from llama_index import (
+from llama_index.core import (
     SimpleDirectoryReader,
     VectorStoreIndex,
     StorageContext,
     load_index_from_storage
 )
-from llama_index.llms import OpenAI
+from llama_index.llms.openai import OpenAI
 
 # Configuration
 DOCS_PATH = "./docs"

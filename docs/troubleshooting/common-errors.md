@@ -212,9 +212,11 @@ This guide helps you diagnose and resolve common errors encountered when using S
    - Limit output frequency
    - Close other applications
 
-3. **Increase Java heap** (if applicable):
-   - Add `-Xmx16g` to launcher parameters
-   - Replace 16 with available RAM in GB
+3. **Increase application memory allocation**:
+   - Configure memory settings in application preferences
+   - For Windows: Modify shortcut properties or configuration file
+   - For Linux: Set environment variables or use startup parameters
+   - Example: Allocate 16 GB max memory if available
 
 4. **Use solver optimization**:
    - Enable out-of-core solver
