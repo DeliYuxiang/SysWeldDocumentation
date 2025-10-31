@@ -1,0 +1,85 @@
+{
+  "repository": {
+    "name": "SysWeldDocumentation",
+    "description": "Comprehensive documentation for SysWeld Software, optimized for RAG applications",
+    "version": "1.0.0",
+    "last_updated": "2025-10-31",
+    "maintainer": "SysWeld Documentation Team"
+  },
+  "documentation": {
+    "format": "markdown",
+    "encoding": "UTF-8",
+    "base_directory": "docs",
+    "categories": [
+      {
+        "name": "getting-started",
+        "description": "Beginner guides and initial setup instructions",
+        "topics": ["installation", "quickstart", "basic-concepts"]
+      },
+      {
+        "name": "user-guide",
+        "description": "Comprehensive user documentation for all features",
+        "topics": ["interface", "workflows", "advanced-features", "configuration"]
+      },
+      {
+        "name": "api-reference",
+        "description": "API documentation and technical specifications",
+        "topics": ["api-endpoints", "data-structures", "scripting", "automation"]
+      },
+      {
+        "name": "tutorials",
+        "description": "Step-by-step tutorials and practical examples",
+        "topics": ["welding-simulation", "thermal-analysis", "mechanical-analysis", "optimization"]
+      },
+      {
+        "name": "troubleshooting",
+        "description": "Common issues, error messages, and solutions",
+        "topics": ["errors", "performance", "compatibility", "faq"]
+      }
+    ]
+  },
+  "rag_configuration": {
+    "recommended_chunk_size": 1000,
+    "recommended_overlap": 200,
+    "embedding_models": [
+      "text-embedding-ada-002",
+      "sentence-transformers/all-MiniLM-L6-v2",
+      "BAAI/bge-large-en-v1.5"
+    ],
+    "supported_frameworks": [
+      "langchain",
+      "llamaindex",
+      "haystack"
+    ],
+    "vector_stores": [
+      "chroma",
+      "pinecone",
+      "weaviate",
+      "faiss"
+    ]
+  },
+  "metadata_schema": {
+    "document_frontmatter": {
+      "title": "Document title",
+      "category": "Category name from categories list",
+      "topics": ["Array of relevant topics"],
+      "difficulty": "beginner|intermediate|advanced",
+      "last_updated": "YYYY-MM-DD",
+      "related": ["Array of related document paths"]
+    }
+  },
+  "keywords": [
+    "sysweld",
+    "welding simulation",
+    "thermal analysis",
+    "mechanical analysis",
+    "finite element analysis",
+    "FEA",
+    "CAE",
+    "simulation software",
+    "manufacturing",
+    "assembly welding",
+    "distortion prediction",
+    "residual stress"
+  ]
+}
